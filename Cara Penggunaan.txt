@@ -1,0 +1,22 @@
+Aplikasi dibuat menggunakan PHP Native 5.5
+
+Bahan yang dibutuhkan :
+1. XAMPP v.5.5 atau v.7.0
+2. File website
+Cara Penggunaan :
+1. Install XAMPP di laptop
+2. Extract file website di folder htdocs (drive/xampp/htdocs)
+3. Buka XAMPP Control Panel dan aktifkan Apache + Mysql
+4. Buka web browser dan ketikkan di tab link : localhost/phpmyadmin
+5. Klik new atau new database, buat database dengan nama : sewa-lapangan
+6. klik import di menu tabulasi phpmyadmin
+7. Pilih browse, lalu pilih database yang ada difolder sewa-lapanagan (.sql)
+8. Buka tab baru dan tuliskan : localhost/sewa-lapangan
+9. Link admin login dan pengguna login : localhost/sewa-lapangan/login.php
+10. Akses admin, username : admin - password : admin
+11. Akses pengguna, username : rohmatul - password : rohmatul
+
+ 
+Catatan :
+1. Create/Update data jumlah lapangan hanya maksimal 1 lapangan tidak bisa lebih
+2. Jika Create/Update data jumlah lapangan dilakukan lebih dari 1, maka sistem tetap mendeteksi 1 lapangan saja.
